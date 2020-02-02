@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title="New York project">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="animate-flicker ">
+  <div id="theName"><s>This is going to be about New York</s></div></div>
+  <div class="video">
+    <video autoplay loop id="firstVideo">
+      <source src="ForLeadingVideoNewYork.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="viewport-1"></div>
+  <div class="animated fadeIn">
+    <p id="leadingWords">
+      The thing is that you have terminate everything that distracts you<br>
+      from what you really love. Your one and only love is New York.<br>
+      And you have to do everything to conquer your love.<br>
+      Think of it.<br></p>
+    </div>
+  <div class="picture">
+    <img class="creature" src="creature.png" alt="">
+  </div>
+  <div class="picture">
+    <img class="workaholics" src="workaholics.png" alt="">
+  </div>
+  <div class="animated slideInRight text">
+    <p id="firstDecsription">
+      What if she was so tired<br>
+      so she could not get<br>
+      her shit together<br></p>
+  </div>
+  <div class="animated slideInLeft text">
+    <p id="secondDescription">
+      What if their work<br>
+      was only about<br>
+      teasing me<br></p>
+  </div>
+  <div class="picture">
+    <img class="boats" src="boats.png" alt="">
+  </div>
+  <div class="text">
+    <p id="thirdDecsription">
+      What if all the boats<br>
+      were bringing love<br>
+      to the island<br></p>
+  </div>
+  <div class="picture">
+    <img class="buildings" src="buildings.png" alt="">
+  </div>
+<div class="text">
+  <p id="forthDecsription">
+    If you could build<br>
+    a place and make it<br>
+    your home<br></p></div>
+<div class="picture">
+  <img class="street" src="street.png" alt="">
+</div>
+<div class="text">
+  <p id="fithDecsription">
+  I come from suburbs,<br>
+  I've come to you,<br>
+  hello<br></p>
+</div>
+</body>
+</html>
