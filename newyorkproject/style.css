@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+body {
+  background-color: black;
+}
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+    animation: flickerAnimation 0.1s infinite;
+}
+.video {
+  position: relative;
+}
+#firstVideo {
+  z-index: 1;
+  width: 90%;
+  margin-top: -10vw;
+  margin-left: 0vw;
+}
+.viewport-1
+{
+position: relative;
+z-index: -1;
+margin-top: 40vw;
+background-size: cover;
+background-color: #C8FF1A;
+height: 100vw;
+width: 100vw;
+}
+@font-face {
+font-family: 'bluu';
+src: url('bluunext-bold-webfont.woff2') format('woff2'),
+url('bluunext-bold-webfont.woff') format('woff'),
+url('bluunext-bold.ttf') format('truetype'),
+url('bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'bluu';
+src: url('bluunext-bolditalic-webfont.woff2') format('woff2'),
+url('bluunext-bolditalic-webfont.woff') format('woff'),
+url('bluunext-bolditalic.ttf') format('truetype'),
+url('bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+font-weight: normal;
+font-style: italic;
+
+}
+
+@font-face {
+font-family: 'bluu_nexttitling';
+src: url('BluuNext-Titling.ttf') format('truetype'),
+url('bluunext-titling.woff2') format('woff2'),
+url('bluunext-titling.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+#theName {
+position: relative;
+display: flex;
+z-index: 1;
+left: -3vh;
+top: 100vw;
+color: white;
+font-size: 10vw;
+font-family: bluu;
+}
+#leadingWords {
+position: relative;
+display: flex;
+z-index: 1;
+margin-left: 0vw;
+margin-top: -62vw;
+color: black;
+font-size: 5vw;
+font-family: bluu;
+}
+.picture {
+  position: relative;
+}
+.creature {
+  z-index: 1;
+  width: 80vw;
+  margin-top: 100vw;
+  margin-left: 0vw;
+}
+.workaholics {
+  z-index: 1;
+  width: 80vw;
+  margin-top: 10vw;
+  margin-left: 20vw;
+}
+.text {
+  position: relative;
+}
+#firstDecsription {
+  z-index: 1;
+  margin-top: -118vw;
+  margin-left: 70vw;
+  color: #EA00A9;
+  font-size: 4vw;
+  font-family: bluu;
+}
+#secondDescription {
+  z-index: 1;
+  margin-top: 39vw;
+  margin-left: 0vw;
+  color: #EA00A9;
+  font-size: 4vw;
+  font-family: bluu;
+}
+#thirdDecsription {
+  z-index: 1;
+  margin-top: -55vw;
+  margin-left: 75vw;
+  color: #EA00A9;
+  font-size: 4vw;
+  font-family: bluu;
+}
+#forthDecsription {
+  z-index: 1;
+  margin-top: -48vw;
+  margin-left: 0vw;
+  color: #EA00A9;
+  font-size: 4vw;
+  font-family: bluu;
+}
+.boats {
+  z-index: 1;
+  width: 80vw;
+  margin-top: 50vw;
+  margin-left: 0vw;
+}
+.buildings {
+  z-index: 1;
+  width: 80vw;
+  margin-top: 40vw;
+  margin-left: 20vw;
+}
+.street {
+  z-index: 1;
+  width: 80vw;
+  margin-top: 45vw;
+  margin-left: 0vw;
+}
+#fithDecsription {
+  z-index: 1;
+  margin-top: -65vw;
+  margin-left: 70vw;
+  color: #EA00A9;
+  font-size: 4vw;
+  font-family: bluu;
+}
