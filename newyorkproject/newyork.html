@@ -12,11 +12,7 @@
 <body>
   <div class="animate-flicker ">
   <div id="theName"><s>This is going to be about New York</s></div></div>
-  <div class="video">
-    <video autoplay loop id="firstVideo">
-      <source src="ForLeadingVideoNewYork.mp4" type="video/mp4">
-    </video>
-    <script>
+   <script>
       var interval = setInterval(function(){
           var countForVideo = document.getElementById('vid').readyState;
           if(countForVideo == 4){
@@ -25,6 +21,10 @@
           }
         },2000);
       </script>
+  <div class="video">
+    <video autoplay loop id="firstVideo">
+      <source src="ForLeadingVideoNewYork.mp4" type="video/mp4">
+    </video>
   </div>
   <div class="viewport-1"></div>
   <div class="animated fadeIn">
