@@ -12,15 +12,6 @@
 <body>
   <div class="animate-flicker ">
   <div id="theName"><s>This is going to be about New York</s></div></div>
-   <script>
-      var interval = setInterval(function(){
-          var countForVideo = document.getElementById('vid').readyState;
-          if(countForVideo == 4){
-            document.getElementById('vid').play();
-            clearInterval(interval);
-          }
-        },2000);
-      </script>
   <div class="video">
     <video autoplay loop muted playsinline id="firstVideo">
       <source src="ForLeadingVideoNewYork.mp4" type="video/mp4">
