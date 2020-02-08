@@ -52,10 +52,11 @@ body {
     animation: flickerAnimation 0.1s infinite;
 }
 .videoPic {
+  position: relative;
   z-index: 1;
   width: 100vw;
-  margin-top: 10vw;
-  margin-left: 0vw;
+  margin-top: -20vw;
+  margin-left: -5vw;
 }
 .viewport-1
 {
