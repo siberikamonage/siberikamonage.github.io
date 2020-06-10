@@ -51,14 +51,12 @@ body {
 .animate-flicker {
     animation: flickerAnimation 0.1s infinite;
 }
-.video {
+.videoPic {
   position: relative;
-}
-#firstVideo {
   z-index: 1;
-  width: 90%;
-  margin-top: -10vw;
-  margin-left: 0vw;
+  width: 100%;
+  margin-top: -20vw;
+  margin-left: -5vw;
 }
 .viewport-1
 {
